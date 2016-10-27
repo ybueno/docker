@@ -23,3 +23,12 @@ docker run -p 80:80 -it 57a669e19303 /bin/bash
 
 CTRL + D para sair
 
+
+# para remover
+docker images
+docker rmi -f ID
+
+#exibir containers
+docker ps -a
+
+

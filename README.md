@@ -18,7 +18,8 @@ sudo service docker start
 docker images
 docker build -t nginx-example . (pasta local)
 
-# rodar - exibir o terminal (/bin/bash)
+# rodar e exibir o terminal (/bin/bash)
+#porta docker:porta maquina
 docker run -p 80:80 -it 57a669e19303 /bin/bash
 
 CTRL + D para sair
